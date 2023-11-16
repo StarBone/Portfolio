@@ -349,6 +349,12 @@ body {
   background: rgba(217, 217, 217, 0);
 }
 
+.project .row .box-p1::before {
+  content: "";
+  background: linear-gradient(to top, #fc466b 0%, #3f5efb 100%);
+  z-index: -1;
+}
+
 .project .row .box-p1 img {
   margin-left: 1.75rem;
   margin-top: 1.75rem;
