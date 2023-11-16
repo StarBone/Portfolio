@@ -167,8 +167,7 @@ body {
 
 /* About Section */
 .about,
-.project,
-.contact {
+.project {
   min-height: 100vh;
   padding: 6.5rem 7% 1.4rem;
 }
@@ -450,3 +449,96 @@ body {
 }
 
 /* Contact Section */
+.contact {
+  min-height: 100vh;
+}
+
+.contact .row .content {
+  display: flex;
+  justify-content: center;
+  padding-top: 7rem;
+}
+
+.contact .row .content .contact-s {
+  position: relative;
+  right: 12rem;
+  width: 750px;
+  height: 500px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: linear-gradient(117deg, #fc466b 0%, #3f5efb 100%);
+  box-shadow: 8px 8px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+.contact .row .content .rectangle3 {
+  position: relative;
+  left: 5rem;
+  bottom: 6rem;
+  width: 210px;
+  height: 210px;
+  flex-shrink: 0;
+  border-radius: 100%;
+  background: linear-gradient(124deg, #fc466b 13.98%, #3f5efb 84.6%);
+}
+
+.contact .row .content .rectangle4 {
+  position: relative;
+  bottom: 4rem;
+  width: 171px;
+  height: 171px;
+  flex-shrink: 0;
+  border-radius: 100%;
+  background: linear-gradient(340deg, #fc466b 19.99%, #3f5efb 87.99%);
+}
+
+.contact .contact-fill {
+  display: block;
+  padding: 3rem 3rem;
+}
+
+.contact .contact-me #contact-h {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.contact .contact-me #contact-d {
+  position: relative;
+  /* padding-right: 15rem; */
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+
+.contact .follow-me #follow-h {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.contact .follow-me #follow-d {
+  position: relative;
+  /* padding-right: 15rem; */
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+
+/* .contact .row .shape {
+  width: 1440px;
+  height: 401px;
+  flex-shrink: 0;
+  background: linear-gradient(
+    98deg,
+    rgba(63, 94, 251, 0.5) 0.33%,
+    #fc466b 100%
+  );
+} */
