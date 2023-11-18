@@ -401,9 +401,8 @@ body {
 
 .project .row .box-p1 .liveP h1 {
   position: relative;
-  bottom: 0.22rem;
+  bottom: 0.25rem;
   color: #fff;
-  text-align: center;
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
@@ -423,9 +422,8 @@ body {
 
 .project .row .box-p1 .checkG h1 {
   position: relative;
-  bottom: 0.22rem;
+  bottom: 0.25rem;
   color: #fff;
-  text-align: center;
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
@@ -462,7 +460,7 @@ body {
 .contact .row .content .contact-s {
   position: relative;
   right: 12rem;
-  width: 750px;
+  width: 850px;
   height: 500px;
   flex-shrink: 0;
   border-radius: 20px;
@@ -492,8 +490,7 @@ body {
 }
 
 .contact .contact-fill {
-  display: block;
-  padding: 3rem 3rem;
+  padding: 3rem 5.3rem;
 }
 
 .contact .contact-me #contact-h {
@@ -505,8 +502,8 @@ body {
 }
 
 .contact .contact-me #contact-d {
-  position: relative;
-  /* padding-right: 15rem; */
+  margin: 0.5rem;
+  padding-right: 25rem;
   color: #fff;
   font-size: 14px;
   font-style: normal;
@@ -523,8 +520,8 @@ body {
 }
 
 .contact .follow-me #follow-d {
-  position: relative;
-  /* padding-right: 15rem; */
+  margin: 0.5rem;
+  padding-right: 26rem;
   color: #fff;
   font-size: 14px;
   font-style: normal;
@@ -532,13 +529,75 @@ body {
   line-height: normal;
 }
 
-/* .contact .row .shape {
-  width: 1440px;
-  height: 401px;
+.contact .contact-fill .phone {
+  display: flex;
+  padding-top: 1rem;
+  margin-left: 0.5rem;
+  align-items: center;
+}
+
+.contact .contact-fill .phone p {
+  margin-left: 0.5rem;
+  color: #fff;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+
+.contact .contact-fill .mail {
+  display: flex;
+  padding-top: 2rem;
+  margin-left: 0.5rem;
+  align-items: center;
+}
+
+.contact .contact-fill .mail p {
+  margin-left: 0.5rem;
+  color: #fff;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+
+.contact .contact-fill .address {
+  display: flex;
+  padding-top: 2rem;
+  margin-left: 0.5rem;
+  align-items: center;
+}
+
+.contact .contact-fill .address p {
+  margin-left: 0.5rem;
+  color: #fff;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+
+.contact .contact-fill .follow-me {
+  padding-top: 2.9rem;
+}
+
+.contact .contact-fill .socialmedia {
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+.contact .contact-fill .socialmedia a {
+  margin-left: 0.5rem;
+  margin-right: 5rem;
+}
+
+.content .contact-fill .box-input {
+  position: relative;
+  bottom: 25rem;
+  left: 22.5rem;
+  width: 350px;
+  height: 410px;
   flex-shrink: 0;
-  background: linear-gradient(
-    98deg,
-    rgba(63, 94, 251, 0.5) 0.33%,
-    #fc466b 100%
-  );
-} */
+  border-radius: 20px;
+  background: #001139;
+}
