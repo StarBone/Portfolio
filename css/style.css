@@ -460,7 +460,7 @@ body {
 .contact .row .content .contact-s {
   position: relative;
   right: 12rem;
-  width: 850px;
+  width: 500px;
   height: 500px;
   flex-shrink: 0;
   border-radius: 20px;
@@ -503,7 +503,6 @@ body {
 
 .contact .contact-me #contact-d {
   margin: 0.5rem;
-  padding-right: 25rem;
   color: #fff;
   font-size: 14px;
   font-style: normal;
@@ -521,7 +520,7 @@ body {
 
 .contact .follow-me #follow-d {
   margin: 0.5rem;
-  padding-right: 26rem;
+
   color: #fff;
   font-size: 14px;
   font-style: normal;
@@ -587,17 +586,5 @@ body {
 }
 
 .contact .contact-fill .socialmedia a {
-  margin-left: 0.5rem;
-  margin-right: 5rem;
-}
-
-.content .contact-fill .box-input {
-  position: relative;
-  bottom: 25rem;
-  left: 22.5rem;
-  width: 350px;
-  height: 410px;
-  flex-shrink: 0;
-  border-radius: 20px;
-  background: #001139;
+  margin: 0 2.5rem;
 }
